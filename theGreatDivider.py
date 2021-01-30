@@ -1,7 +1,7 @@
 # Welcome to theGreatDivider.py!
 
 # This app reads a CSV-file-path and devide the content according to your specifications
-# Plans are to expand this to return a new CSV or a .txt-file, if there is time.
+# Plans are to expand this to return a new CSV or a .txt-file, if there is time..
 
 import csv
 import random
