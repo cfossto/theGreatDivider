@@ -16,7 +16,6 @@ with open(file_path) as f:
     for i in d:
         newList.append(i)
 
-print(newList)
 
 formated_list = []
 for member in newList:
@@ -29,8 +28,7 @@ for member in newList:
         else:
             formated_list.append(row)
 
-print("Afterwards: ")
-print(newList)
+
 
 random.shuffle(formated_list)
 
