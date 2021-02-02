@@ -16,15 +16,21 @@ with open(file_path) as f:
     for i in d:
         newList.append(i)
 
-
+print(newList)
 
 formated_list = []
 for member in newList:
     for row in member:
         row = row.replace(";","")
         row = row.replace(",","")
-        formated_list.append(row)
+        if row == "" or row == " ":
+            n = newList.index(member)
+            newList.pop(n)
+        else:
+            formated_list.append(row)
 
+print("Afterwards: ")
+print(newList)
 
 random.shuffle(formated_list)
 
